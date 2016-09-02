@@ -2009,7 +2009,7 @@ public:
       xfer_op.from = from_id;
       xfer_op.to = to_id;
       xfer_op.amount = asset_obj->amount_from_string(amount);
-      xfer_op.fee = asset_obj->amount_from_string("0.1");
+      xfer_op.fee = asset_obj->amount_from_string("0.001");
       if( memo.size() )
          {
             xfer_op.memo = memo_data();
